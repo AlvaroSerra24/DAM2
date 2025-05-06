@@ -1,0 +1,15 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Buscaminas" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="android:statusBarColor" tools:targetApi="21">#3700B3</item>
+    </style>
+
+
+
+    <style name="Theme.Buscaminas" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <item name="colorPrimary">#800080</item>
+        <item name="colorOnPrimary">#FFFFFF</item>
+    </style>
+</resources>
